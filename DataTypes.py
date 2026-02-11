@@ -12,17 +12,18 @@ print("Are you maried ?", isMaried)
 cars = ["Toyota", "Audi", "BMW", "Mercedes"] #List- it's ordered and changeable
 fruits = ("apple", "banana", "cherry") #Tuple - it's ordered and unchangeable
 countries = {"Italy", "Germany", "France"} #Set - it's unordered and unchangeable
+language = ["english", "french", "spanish"] #Array
 student = {
     "firstname" : "John",
     "lastname" : "Doe",
     "age" : 19,
     "course" : "FullStack",
     "gender" : "Male",
-}
+}#Dictionary
 print(cars)
 print(fruits)
 print(countries)
 print(student)
 print(student["firstname"])
 
-#Ttpecasting
+#Typecasting
