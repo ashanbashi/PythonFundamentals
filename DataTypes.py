@@ -12,7 +12,7 @@ print("Are you maried ?", isMaried)
 cars = ["Toyota", "Audi", "BMW", "Mercedes"] #List- it's ordered and changeable
 fruits = ("apple", "banana", "cherry") #Tuple - it's ordered and unchangeable
 countries = {"Italy", "Germany", "France"} #Set - it's unordered and unchangeable
-language = ["english", "french", "spanish"] #Array
+language = ["english", "french", "spanish"] #Array - stores only one data type
 student = {
     "firstname" : "John",
     "lastname" : "Doe",
@@ -26,4 +26,7 @@ print(countries)
 print(student)
 print(student["firstname"])
 
-#Typecasting
+#Typecasting - conversion of a value from one data type to another
+x = "10"
+y=int(x)
+print(y+5)
